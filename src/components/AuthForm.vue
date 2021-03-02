@@ -37,10 +37,7 @@ export default {
             loading: false,
         }
     },
-
     
-
-
     methods: {
         onSubmit() {
 
@@ -73,6 +70,7 @@ export default {
                 .catch(e => console.log(e))
 
         },
+
         onChange(e){
             const { checked } = e.target
             this.isAccepted = checked
